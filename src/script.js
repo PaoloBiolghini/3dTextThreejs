@@ -32,7 +32,7 @@ const fontLoader = new FontLoader()
 fontLoader.load('fonts/helvetiker_regular.typeface.json', (font) => {
     console.log("font loaded")
     const textGeometry=new TextGeometry(
-        "Paolo",
+        "Paolo Ciao",
         {
             font,
             size:0.5,
